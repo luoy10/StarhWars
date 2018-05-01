@@ -1,0 +1,31 @@
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\bin\Debug\Client.exe.config
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\bin\Debug\Client.exe
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\bin\Debug\Client.pdb
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\obj\Debug\Client.exe
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\obj\Debug\Client.pdb
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Mike\Desktop\UDP Windows App\UDPWindows\Client\obj\Debug\Client.UdpBase.resources
+M:\383\UDP Windows App\UDPWindows\Client\bin\Debug\Client.exe.config
+M:\383\UDP Windows App\UDPWindows\Client\obj\Debug\Client.exe
+M:\383\UDP Windows App\UDPWindows\Client\obj\Debug\Client.pdb
+M:\383\UDP Windows App\UDPWindows\Client\bin\Debug\Client.exe
+M:\383\UDP Windows App\UDPWindows\Client\bin\Debug\Client.pdb
+M:\383\UDP Windows App\UDPWindows\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+M:\383\UDP Windows App\UDPWindows\Client\obj\Debug\Client.Properties.Resources.resources
+M:\383\UDP Windows App\UDPWindows\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+M:\383\UDP Windows App\UDPWindows\Client\obj\Debug\Client.frmMain.resources
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\bin\Debug\Client.exe.config
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.exe
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.pdb
+C:\Users\luoy10\Desktop\StahrWars\Client\bin\Debug\Client.exe.config
+C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.exe
+C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.pdb
+C:\Users\luoy10\Desktop\StahrWars\Client\bin\Debug\Client.exe
+C:\Users\luoy10\Desktop\StahrWars\Client\bin\Debug\Client.pdb
+C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.frmMain.resources
+C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.csproj.GenerateResource.Cache

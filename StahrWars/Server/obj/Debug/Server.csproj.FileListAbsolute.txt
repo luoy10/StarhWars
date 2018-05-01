@@ -1,0 +1,9 @@
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\bin\Debug\UPDServer.exe.config
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\obj\Debug\UPDServer.exe
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\obj\Debug\UPDServer.pdb
+C:\Users\luoy10\Desktop\StahrWars\Server\bin\Debug\UPDServer.exe.config
+C:\Users\luoy10\Desktop\StahrWars\Server\obj\Debug\UPDServer.exe
+C:\Users\luoy10\Desktop\StahrWars\Server\obj\Debug\UPDServer.pdb
+C:\Users\luoy10\Desktop\StahrWars\Server\bin\Debug\UPDServer.exe
+C:\Users\luoy10\Desktop\StahrWars\Server\bin\Debug\UPDServer.pdb
+C:\Users\luoy10\Desktop\StahrWars\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache

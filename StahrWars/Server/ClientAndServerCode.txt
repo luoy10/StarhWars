@@ -1,0 +1,134 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UPDServer {
+    public struct Received {
+        public IPEndPoint Sender;
+        public string Message;
+    }
+
+    abstract class UdpBase {
+        protected UdpClient Client;
+
+        protected UdpBase() {
+            Client = new UdpClient();
+        }
+
+        public async Task<Received> Receive() {
+            var result = await Client.ReceiveAsync();
+            return new Received() {
+                Message = Encoding.ASCII.GetString(result.Buffer, 0, result.Buffer.Length),
+                Sender = result.RemoteEndPoint
+            };
+        }
+    }
+
+    //Server
+    class UdpListener : UdpBase {
+        private IPEndPoint _listenOn;
+
+        public UdpListener() : this(new IPEndPoint(IPAddress.Any, 32123)) { }
+
+        public UdpListener(IPEndPoint endpoint) {
+            _listenOn = endpoint;
+            Client = new UdpClient(_listenOn);
+        }
+
+        public void Reply(string message, IPEndPoint endpoint) {
+            var datagram = Encoding.ASCII.GetBytes(message);
+            Client.Send(datagram, datagram.Length, endpoint);
+        }
+
+    }
+
+    //Client
+    class UdpUser : UdpBase {
+        private UdpUser() { }
+
+        public static UdpUser ConnectTo(string hostname, int port) {
+            var connection = new UdpUser();
+            connection.Client.Connect(hostname, port);
+            return connection;
+        }
+
+        public void Send(string message) {
+            var datagram = Encoding.ASCII.GetBytes(message);
+            Client.Send(datagram, datagram.Length);
+        }
+
+    //}
+
+    class Program {
+        static void Main(string[] args) {
+            //create a new server
+            var server = new UdpListener();
+
+            Dictionary<string, IPEndPoint> connections = new Dictionary<string, IPEndPoint>();
+
+
+            Console.WriteLine("============================================= Client/Server");
+
+
+            //start listening for messages and copy the messages back to the client
+            Task.Factory.StartNew(async () => {
+                while (true) {
+                    var received = await server.Receive();
+
+                    if (!connections.ContainsKey(received.Sender.Address.ToString()))
+                        connections.Add(received.Sender.Address.ToString(), received.Sender);
+
+                    //Console.WriteLine("Message Received to Server: " + received.Message);
+
+                    string ret = "";
+                    if(received.Message.Equals("list")) {
+                        foreach (string s in connections.Keys)
+                            ret += ", " + s;
+                        server.Reply(ret.Substring(2), received.Sender);
+                    }
+
+
+
+                    foreach (IPEndPoint ep in connections.Values) 
+                        server.Reply(ep.Address + " says: " + received.Message, ep);
+                    
+
+                    if (received.Message == "quit")
+                        connections.Remove(received.Sender.Address.ToString());     // Remove the IP Address from the list of connections
+                                                                                    //break;
+                }
+            });
+
+
+
+            //create a new client
+            //var client = UdpUser.ConnectTo("127.0.0.1", 32123);
+            var client = UdpUser.ConnectTo("10.33.7.192", 32123);
+
+            //wait for reply messages from server and send them to console 
+            Task.Factory.StartNew(async () => {
+                while (true) {
+                    try {
+                        var received = await client.Receive();
+                        Console.WriteLine(received.Message);
+                        if (received.Message.Contains("quit"))
+                            break;
+                    } catch (Exception ex) {
+                        Console.Write(ex);
+                    }
+                }
+            });
+
+            ////type ahead :-)
+            string read;
+            do {
+                read = Console.ReadLine();
+                foreach (IPEndPoint ep in connections.Values)
+                    server.Reply("SERVER SAYS: " + read, ep);
+            } while (read != "quit");
+        }
+    }
+}
