@@ -20,6 +20,42 @@ M:\383\UDP Windows App\UDPWindows\Client\obj\Debug\Client.frmMain.resources
 M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\bin\Debug\Client.exe.config
 M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.exe
 M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.pdb
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\bin\Debug\Client.exe
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\bin\Debug\Client.pdb
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.frmMain.resources
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.Properties.Resources.resources
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\stahrm\Desktop\StahrWars\Client\bin\Debug\Client.exe.config
+C:\Users\stahrm\Desktop\StahrWars\Client\obj\Debug\Client.exe
+C:\Users\stahrm\Desktop\StahrWars\Client\obj\Debug\Client.pdb
+C:\Users\stahrm\Desktop\StahrWars\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\stahrm\Desktop\StahrWars\Client\obj\Debug\Client.frmMain.resources
+C:\Users\stahrm\Desktop\StahrWars\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\stahrm\Desktop\StahrWars\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\stahrm\Desktop\StahrWars\Client\bin\Debug\Client.exe
+C:\Users\stahrm\Desktop\StahrWars\Client\bin\Debug\Client.pdb
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\bin\Debug\Client.exe.config
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\obj\Debug\Client.exe
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\obj\Debug\Client.pdb
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\obj\Debug\Client.frmMain.resources
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\bin\Debug\Client.exe
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\bin\Debug\Client.pdb
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Client\obj\Debug\Client.Ship.resources
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\bin\Debug\Client.exe.config
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\obj\Debug\Client.exe
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\obj\Debug\Client.pdb
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\bin\Debug\Client.exe
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\bin\Debug\Client.pdb
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\obj\Debug\Client.frmMain.resources
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\obj\Debug\Client.Properties.Resources.resources
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\obj\Debug\Client.Ship.resources
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Client\obj\Debug\Client.csproj.GenerateResource.Cache
 C:\Users\luoy10\Desktop\StahrWars\Client\bin\Debug\Client.exe.config
 C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.exe
 C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.pdb
@@ -28,4 +64,5 @@ C:\Users\luoy10\Desktop\StahrWars\Client\bin\Debug\Client.pdb
 C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
 C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.frmMain.resources
 C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.Ship.resources
 C:\Users\luoy10\Desktop\StahrWars\Client\obj\Debug\Client.csproj.GenerateResource.Cache

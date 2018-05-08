@@ -6,6 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace UPDServer {
+    class Player {
+        public int sector;
+        public int col;
+        public int row;
+        public int fuel_pods;
+    }
+
     public struct Received {
         public IPEndPoint Sender;
         public string Message;
@@ -27,7 +34,6 @@ namespace UPDServer {
         }
     }
 
-    //Server
     class UdpListener : UdpBase {
         private IPEndPoint _listenOn;
 
@@ -47,11 +53,14 @@ namespace UPDServer {
 
 
     class Program {
+        static Player p1 = new Player();
+
         static void Main(string[] args) {
             //create a new server
             var server = new UdpListener();
 			Random rnd = new Random();
             Dictionary<string, IPEndPoint> connections = new Dictionary<string, IPEndPoint>();
+            Dictionary<string, Player> players = new Dictionary<string, Player>();
 
 
             Console.WriteLine("============================================= Server");
@@ -70,7 +79,12 @@ namespace UPDServer {
                     // Only add new connections to the list of clients
                     if (!connections.ContainsKey(received.Sender.Address.MapToIPv4().ToString())) {
                         connections.Add(received.Sender.Address.MapToIPv4().ToString(), received.Sender);
-                        server.Reply(String.Format("connected:true:{0}:{1}:{2}",rnd.Next(0,63),rnd.Next(0,9), rnd.Next(0, 9)), received.Sender);
+                        p1 = new Player();
+                        p1.sector = rnd.Next(0, 256);
+                        p1.col = rnd.Next(0, 9);
+                        p1.row = rnd.Next(0, 9);
+                        players.Add(received.Sender.Address.MapToIPv4().ToString(), p1);
+                        server.Reply(String.Format("connected:true:{0}:{1}:{2}", p1.sector, p1.col, p1.row ), received.Sender);
                     }
 
 
@@ -86,7 +100,31 @@ namespace UPDServer {
                     }
 
                     if (received.Message == "quit")
+                    {
                         connections.Remove(received.Sender.Address.ToString());     // Remove the IP Address from the list of connections
+                    }
+                    else if (parts[0].Equals("mov"))
+                    {
+
+                        Player p;
+                        players.TryGetValue(received.Sender.Address.MapToIPv4().ToString(), out p);
+
+                        if (parts[1].Equals("n")) p.row--;
+                        else if (parts[1].Equals("s")) p.row++;
+                        else if (parts[1].Equals("e")) p.col++;
+                        else if (parts[1].Equals("w")) p.col--;
+
+                        server.Reply(String.Format("loc:{0}:{1}:{2}:{3}", p.sector, p.col, p.row, parts[1]), received.Sender);
+                    }
+                    else if (parts[0].Equals("hyp")) {
+                        Player p;
+                        players.TryGetValue(received.Sender.Address.MapToIPv4().ToString(), out p);
+                        p.col = rnd.Next(0, 9);
+                        p.row = rnd.Next(0, 9);
+                        p.fuel_pods -= 5;
+                        server.Reply(String.Format("loc:{0}:{1}:{2}:{3}", p.sector, p.col, p.row, p.fuel_pods), received.Sender);
+
+                    }
                 }
             });
 

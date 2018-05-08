@@ -1,6 +1,28 @@
 M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\bin\Debug\UPDServer.exe.config
 M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\obj\Debug\UPDServer.exe
 M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\obj\Debug\UPDServer.pdb
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\bin\Debug\UPDServer.exe
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\bin\Debug\UPDServer.pdb
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+M:\383\2017-2018_Spring\Starting_2018-04-10\FinalProject\StarterApp\StahrWars\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\stahrm\Desktop\StahrWars\Server\bin\Debug\UPDServer.exe.config
+C:\Users\stahrm\Desktop\StahrWars\Server\obj\Debug\UPDServer.exe
+C:\Users\stahrm\Desktop\StahrWars\Server\obj\Debug\UPDServer.pdb
+C:\Users\stahrm\Desktop\StahrWars\Server\bin\Debug\UPDServer.exe
+C:\Users\stahrm\Desktop\StahrWars\Server\bin\Debug\UPDServer.pdb
+C:\Users\stahrm\Desktop\StahrWars\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Server\bin\Debug\UPDServer.exe.config
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Server\obj\Debug\UPDServer.exe
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Server\obj\Debug\UPDServer.pdb
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Server\bin\Debug\UPDServer.exe
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Server\bin\Debug\UPDServer.pdb
+C:\Users\xiangy3\Desktop\New folder\StahrWars\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Server\bin\Debug\UPDServer.exe.config
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Server\obj\Debug\UPDServer.exe
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Server\obj\Debug\UPDServer.pdb
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Server\bin\Debug\UPDServer.exe
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Server\bin\Debug\UPDServer.pdb
+G:\Courses\2018 Spring\CSE 383\Final_Project\StahrWars\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
 C:\Users\luoy10\Desktop\StahrWars\Server\bin\Debug\UPDServer.exe.config
 C:\Users\luoy10\Desktop\StahrWars\Server\obj\Debug\UPDServer.exe
 C:\Users\luoy10\Desktop\StahrWars\Server\obj\Debug\UPDServer.pdb
